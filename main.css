@@ -1,271 +1,270 @@
+input[type=search]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
 
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
 
-            body {
-                margin: 0;
-                background-color:#fff;
-                font-family: Avenir Next;
-            }
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: Avenir Next;
+}
 
-/** Desktop Navbar **/ 
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
-            ul.topnav {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-            }
+ul.topnav li {
+    float: left;
+}
 
-            ul.topnav li {
-                float: left;
-            }
+ul.topnav li a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 16px 30px;
 
-            ul.topnav li a {
-                text-align: center;
-                text-decoration: none;
-                display: block;
-                padding: 16px 30px;
-                
-                color: #000;
-                font-size: 0.8em;
-            }
+    color: #000;
+    font-size: 0.8em;
+}
 
-            ul.topnav li a:hover {
-                color: grey;
-                text-decoration: underline;
-            }
+ul.topnav li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
 
-            ul.topnav li.right {
-                float: right;
-               
-            }
+ul.topnav li.right {
+    float: right;
+}
 
+ul.bottomnav {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    border: 1px solid silver;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
-            ul.bottomnav {
-                margin: 0;
-                padding: 0;
-                background-color: #F2F2F2;
-                border: 1px solid silver;
-                list-style-type: none;
-                overflow: hidden;
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-            }
+@media screen and (max-width: 450px) {
+    ul.topnav {
+        display: none;
+    }
+}
 
-            @media screen and (max-width: 450px) {
-                ul.topnav {
-                    display: none;
-                }
-            } 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
 
+.sidenav:focus {
+    outline: none;
+}
 
-/** Mobile Navbar **/
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
 
+.sidenav a:hover {
+    color: #f1f1f1;
+}
 
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
 
-            .sidenav {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #fff;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-            }
+.sidenav .closebtn:focus {
+    outline: none;
+}
 
-            .sidenav:focus {
-                outline: none;
-            }
+div.sidenav i.icons {
+    margin-right: 10px;
+    width: 15px;
+    font-size: 1.2em;
+}
 
-            .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 1em;
-            font-weight: 500;
-            color: #818181;
-            display: block;
-            transition: 0.3s;
-            }
+div.sidenav div.line_break {
+    height: 1px;
+    width: 100%;
+    background-color: silver;
+    margin: 10px 0px;
+}
 
-            .sidenav a:hover {
-            color: #f1f1f1;
-            }
+span.sidenav_icon {
+    margin-left: 10px;
+}
 
-            .sidenav .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-            }
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
 
-            .sidenav .closebtn:focus {
-                outline: none;
-            }
+@media screen and (max-width: 3000px) {
+    .none {
+        visibility: hidden;
+    }
+}
 
-            div.sidenav i.icons {
-                margin-right: 10px;
-                width: 15px;
-                font-size: 1.2em;
-            }
+@media screen and (max-width: 450px) {
+    .none {
+        visibility: visible;
+    }
+}
 
-            div.sidenav div.line_break {
-                height: 1px;
-                width: 100%;
-                background-color: silver;
-                margin: 10px 0px;
-            }
+ul.bottomnav li {
+    float: left;
+}
 
-            span.sidenav_icon {
-                margin-left: 10px;
-            }
+ul.bottomnav li a {
+    text-decoration: none;
+    text-align: center;
+    color: grey;
+    display: block;
+    padding: 10px 18px;
+    font-size: 0.8em;
+}
 
+ul.bottomnav div.right {
+    float: right;
+}
 
-            @media screen and (max-height: 450px) {
-            .sidenav {padding-top: 15px;}
-            .sidenav a {font-size: 18px;}
-            }
+ul.bottomnav li a:hover,
+ul.bottomnav div.right li a:hover {
+    color: #000;
+}
 
-            @media screen and (max-width: 3000px) {
-                .none {
-                visibility: hidden;
-                }
-            }
+@media screen and (max-width: 420px) {
+    ul.bottomnav li,
+    ul.bottomnav div.right {
+        float: none;
+    }
 
-            @media screen and (max-width: 450px) {
-                .none {
-                    visibility: visible;
-                }
-            }
+    ul.bottomnav li {
+        display: inline-block;
+    }
 
+    ul.bottomnav div.right {
+        display: inline-block;
+    }
 
+    ul.bottomnav {
+        text-align: center;
+    }
+}
 
+.centered_logo {
+    margin-top: 120px;
+    text-align: center;
+}
 
-/** Desktop BottomNav **/
-            ul.bottomnav li {
-                float: left;
+.search_bar {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
 
-            }
+input.text_box {
+    width: 600px;
+    height: 40px;
+    border: 1px solid #f2f2f2;
+    border-radius: 25px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+    outline: none;
+    margin: 20px 0px;
+    padding-left: 10px;
+}
 
-            ul.bottomnav li a {
-                text-decoration: none;
-                text-align: center;
-                color: grey;
-                display: block;
-                padding: 10px 18px;
-                font-size: 0.8em;
-                
-            }
+@media screen and (max-width: 650px) {
+    input.text_box {
+        width: 400px;
+    }
+}
 
-            ul.bottomnav div.right {
-                float: right;
-            }
+@media screen and (max-width: 450px) {
+    input.text_box {
+        width: 350px;
+    }
+}
 
-            ul.bottomnav li a:hover, ul.bottomnav div.right li a:hover{
-                color: #000;
-            }
+@media screen and (max-width: 350px) {
+    input.text_box {
+        width: 300px;
+    }
+}
 
-            @media screen and (max-width: 420px) {
-                ul.bottomnav li, ul.bottomnav div.right {
-                    float: none;
-                }
+@media screen and (max-width: 300px) {
+    input.text_box {
+        width: 250px;
+    }
+}
 
-                ul.bottomnav li {
-                    display: inline-block;
-                }
+input.text_box:focus {
+    outline: none;
+}
 
-                ul.bottomnav div.right {
-                    display: inline-block;
-                }
+input.text_box::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
 
-               ul.bottomnav {
-                   text-align: center;
-               }
-            }
+.centered_container {
+    margin-top: 30px;
+    text-align: center;
+}
 
-/** Logo & Search Bar **/ 
+.google_button {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: 11em;
+    background-color: #f5f4f5;
+    color: grey;
+    font-size: 0.8em;
+    font-weight: 500;
+}
 
-            .centered_logo {
-                margin-top: 120px;
-                text-align: center;
-            }
-
-
-            div.search_bar {
-                height: 3em;
-                width: 50%;
-                background-color: #fff;
-                border: 1px solid #F2F2F2;
-                border-radius: 25px;
-                box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
-                margin: auto;
-                margin-top: 40px;
-            }
-
-            img.search_icon {
-                margin-left: 15px;
-                margin-top: 16px;
-            }
-
-            input.text_box {
-                width: 80%;
-                height: 70%;
-                border: 1px solid transparent;
-            }
-
-            @media screen and (min-width: 2450px) {
-                div.search_bar {
-                    width: 40%;
-                }
-            }
-
-
-            @media screen and (max-width: 420px) {
-                div.search_bar {
-                    width: 70%;
-                }
-            }
-
-            @media screen and (max-width: 420px) {
-                input.text_box {
-                    width: 70%;
-                }
-            }
-
-            /** Removes the blue default border **/
-
-            input.text_box:focus {
-              outline: none;
-            }
-
-              /** Removes the small x to close the search bar **/
-
-            input.text_box::-ms-clear {
-                display: none;
-            }
-
-
-            .centered_container {
-                margin-top:30px;
-                text-align: center;
-            }
-
-            .google_button {
-                padding: 10px;
-                border: 1px solid transparent;;
-                border-radius: 6px;
-                width: 11em;
-                background-color: #F5F4F5;
-                color: grey;
-                font-size: 0.8em;
-                font-weight: 500;
-            }
-
-            .google_button:hover {
-                color: #000;
-                border: 1px solid silver;
-            }
-
+.google_button:hover {
+    color: #000;
+    border: 1px solid silver;
+}
