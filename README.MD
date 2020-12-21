@@ -3,7 +3,7 @@
 
 ## From [The Odin Project](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
-<p>View  <a target="_blank" href="https://htmlpreview.github.io/?https://github.com/imthatalex/google-homepage/blob/master/index.html">Here</a></p>
+<p>View  <a target="_blank" href="https://dazzling-mclean-06e49d.netlify.app">Here</a></p>
 
 
 
