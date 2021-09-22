@@ -6,7 +6,7 @@
 
 
 
-
+![Google Homepage Imitiation Preview](https://i.imgur.com/nfY7XeH.png)
 
 
 
