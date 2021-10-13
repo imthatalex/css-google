@@ -3,11 +3,6 @@
 
 <p>View  <a target="_blank" href="https://imthatalex-google-homepage.netlify.app">Here</a></p>
 
-<p> For design purposes only, responsiveness included </p>
-
-
-
-
 ![Google Homepage Imitiation Preview](https://i.imgur.com/nfY7XeH.png)
 
 
