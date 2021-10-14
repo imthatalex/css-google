@@ -1,9 +1,9 @@
 
 # Google Home Page Imitation (2019)
 
-<p>View  <a target="_blank" href="https://imthatalex-google-homepage.netlify.app">Here</a></p>
+<p> Google Home Page Design, assigned by The Odin Project </p>
 
-![Google Homepage Imitiation Preview](https://i.imgur.com/nfY7XeH.png)
+
 
 
 
