@@ -6,6 +6,5 @@ Task :
 - Design the Google Home Page
 
 What I Learned :
-- 
-
-Original Date of Creation : 01/2020
+- How to Structure an HTML File
+- How to Write CSS to Add Responsiveness
