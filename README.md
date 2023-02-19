@@ -3,7 +3,7 @@
 ## Assignment by The Odin Project
 
 Task :
-- Recreate the Google Home Page
+- Design the Google Home Page
 
 What I Learned :
 - How to Set Up a Webpack.config File to Load & Bundle various File Types such as CSS & Images/Videos
