@@ -7,4 +7,5 @@ Task :
 
 What I Learned :
 - How to Structure an HTML File
-- How to Write CSS to Add Responsiveness
+- How to use CSS Properties to Design a Web Page
+- How to Write Media Queries to Add Responsiveness
